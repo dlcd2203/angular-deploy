@@ -7,10 +7,10 @@ const https = require("https");
 const fs = require("fs");
 const express = require("express");
 
-const proxy = require("./src/endpoints/proxy");
+// const proxy = require("./src/endpoints/proxy");
 const register = require("./src/endpoints/register");
 const assignProject = require("./src/endpoints/assignProject");
-// const staticFiles = require("./src/endpoints/staticFiles");
+const staticFiles = require("./src/endpoints/staticFiles");
 
 const config = {
     serveFrom: `${__dirname}/dist/angular-registration-login-example/`,
@@ -26,7 +26,7 @@ const config = {
 };
 console.log(`Examples-node-server config: ${JSON.stringify(config, false, "\t")}`);
 
-const endpoints = [register, assignProject, proxy];
+const endpoints = [register, assignProject, staticFiles];
 
 const sdk = factory({ domain: config.domain });
 
