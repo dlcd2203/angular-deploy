@@ -1,6 +1,6 @@
 {
     "/gdc": {
-        "target": "https://staging3.intgdc.com",
+        "target": "https://staging2.intgdc.com",
        
         "changeOrigin": true,
         "logLevel": "debug",
@@ -8,7 +8,7 @@
         "secure": false,
         
         "headers": {
-            "host": "staging3.intgdc.com",
+            "host": "staging2.intgdc.com",
             "origin": null
         }
     }
