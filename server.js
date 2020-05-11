@@ -11,7 +11,6 @@ const proxy = require("./src/endpoints/proxy");
 const register = require("./src/endpoints/register");
 const assignProject = require("./src/endpoints/assignProject");
 const staticFiles = require("./src/endpoints/staticFiles");
-const redirectToHttps = require("./src/endpoints/redirectToHttps");
 
 const config = {
     serveFrom: `${__dirname}/dist/angular-registration-login-example/`,
@@ -27,7 +26,7 @@ const config = {
 };
 console.log(`Examples-node-server config: ${JSON.stringify(config, false, "\t")}`);
 
-const endpoints = [redirectToHttps, register, assignProject, proxy, staticFiles];
+const endpoints = [register, assignProject, proxy, staticFiles];
 
 const sdk = factory({ domain: config.domain });
 
