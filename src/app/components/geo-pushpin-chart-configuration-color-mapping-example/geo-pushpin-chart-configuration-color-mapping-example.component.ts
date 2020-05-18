@@ -32,7 +32,7 @@ interface GeoChartProps {
 
 @Component({
   selector: 'app-geo-pushpin-chart-configuration-color-mapping-example',
-  template: '<div class="s-geo-pushpin-chart-configuration-custom-color" style="height:500px" [id]="rootDomID"></div>',
+  template: '<div class="example"><div class="s-geo-pushpin-chart-configuration-custom-color" style="height:500px" [id]="rootDomID"></div></div>',
 })
 export class GeoPushpinChartConfigurationColorMappingExampleComponent implements OnInit {
 
@@ -130,7 +130,7 @@ export class GeoPushpinChartConfigurationColorMappingExampleComponent implements
   }
 
   ngOnInit() {
-    this.rootDomID = uuid.v1();
+    this.rootDomID = uuid.v4();
   }
 
   ngOnChanges() {

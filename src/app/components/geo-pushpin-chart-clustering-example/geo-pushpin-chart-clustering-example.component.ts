@@ -3,6 +3,7 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import * as uuid from 'uuid';
 import * as invariant from 'invariant';
+import "@gooddata/react-components/styles/css/main.css";
 
 import { GeoPushpinChart, Model } from '@gooddata/react-components';
 import { projectId } from '../../../utils/fixtures';
@@ -25,7 +26,7 @@ interface GeoChartProps {
 
 @Component({
   selector: 'app-geo-pushpin-chart-clustering-example',
-  template: '<div class="s-geo-pushpin-chart-clustering" style="height:500px" [id]="rootDomID"></div>',
+  template: '<div class="example"><div class="s-geo-pushpin-chart-clustering" style="height:500px" [id]="rootDomID"></div></div>',
 })
 
 export class GeoPushpinChartClusteringExampleComponent implements OnInit {
@@ -85,7 +86,7 @@ export class GeoPushpinChartClusteringExampleComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.rootDomID = uuid.v1();
+    this.rootDomID = uuid.v4();
   }
 
   ngOnChanges() {

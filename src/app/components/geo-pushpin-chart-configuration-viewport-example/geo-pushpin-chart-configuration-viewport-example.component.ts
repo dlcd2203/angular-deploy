@@ -25,7 +25,7 @@ interface GeoChartProps {
 
 @Component({
   selector: 'app-geo-pushpin-chart-configuration-viewport-example',
-  template: '<div class="s-geo-pushpin-chart-configuration-viewport" style="height:500px" [id]="rootDomID"></div>',
+  template: '<div class="example"><div class="s-geo-pushpin-chart-configuration-viewport" style="height:500px" [id]="rootDomID"></div></div>',
 })
 export class GeoPushpinChartConfigurationViewportExampleComponent implements OnInit {
 
@@ -69,7 +69,7 @@ export class GeoPushpinChartConfigurationViewportExampleComponent implements OnI
   }
 
   ngOnInit() {
-    this.rootDomID = uuid.v1();
+    this.rootDomID = uuid.v4();
   }
 
   ngOnChanges() {

@@ -104,6 +104,11 @@ import  BulletChartHasMeasureValueFilterComponentSRC  from '!!raw-loader!../../c
 import  BulletChartHasMeasureValueFilterComponentHTML  from '!!raw-loader!../../components/bullet-chart-has-measure-value-filter/bullet-chart-has-measure-value-filter.component.html';
 import  BulletChartHasMeasureValueFilterComponentCSS  from '!!raw-loader!../../components/bullet-chart-has-measure-value-filter/bullet-chart-has-measure-value-filter.component.css';
 
+import { GeoPushpinChartWithCategoryLegendExampleComponent } from '../../components/geo-pushpin-chart-with-category-legend-example/geo-pushpin-chart-with-category-legend-example.component';
+import  GeoPushpinChartWithCategoryLegendExampleComponentSRC  from '!!raw-loader!../../components/geo-pushpin-chart-with-category-legend-example/geo-pushpin-chart-with-category-legend-example.component.ts';
+import  GeoPushpinChartWithCategoryLegendExampleComponentHTML  from '!!raw-loader!../../components/geo-pushpin-chart-with-category-legend-example/geo-pushpin-chart-with-category-legend-example.component.html';
+import  GeoPushpinChartWithCategoryLegendExampleComponentCSS  from '!!raw-loader!../../components/geo-pushpin-chart-with-category-legend-example/geo-pushpin-chart-with-category-legend-example.component.css';
+
 @Component({
   selector: 'app-basic-components',
   templateUrl: './basic-components.component.html',
@@ -260,6 +265,13 @@ export class BasicComponentsComponent implements OnInit {
       ts: BulletChartHasMeasureValueFilterComponentSRC,
       html: BulletChartHasMeasureValueFilterComponentHTML,
       css: BulletChartHasMeasureValueFilterComponentCSS
+    },
+    {
+      title: 'Example of Geo Pushpin Chart with Size and Category Legend',
+      for: GeoPushpinChartWithCategoryLegendExampleComponent,
+      ts: GeoPushpinChartWithCategoryLegendExampleComponentSRC,
+      html: GeoPushpinChartWithCategoryLegendExampleComponentHTML,
+      css: GeoPushpinChartWithCategoryLegendExampleComponentCSS
     }
   ]
 

@@ -5,6 +5,7 @@
 @import "@gooddata/react-components/styles/css/pivotTable.css";
 @import '@gooddata/react-components/styles/css/dateFilter.css';
 @import "react-datepicker/dist/react-datepicker.css";
+@import '@gooddata/react-components/styles/css/geoChart.css';
 /* html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
 .separator {
@@ -19,4 +20,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
     border-left : 3px solid #81BEF7;
     background-color: #F2F2F2;
 
+}
+
+.example {
+    padding: 20px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    height: 540;
 }

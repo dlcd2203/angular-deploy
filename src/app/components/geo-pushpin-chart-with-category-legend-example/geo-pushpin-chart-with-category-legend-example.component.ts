@@ -28,7 +28,7 @@ interface GeoChartProps {
 
 @Component({
   selector: 'app-geo-pushpin-chart-with-category-legend-example',
-  template: '<div class="s-geo-pushpin-chart-category" style="height:500px" [id]="rootDomID"></div>',
+  template: '<div class="example"><div class="s-geo-pushpin-chart-category" style="height:500px" [id]="rootDomID"></div></div>',
 })
 
 export class GeoPushpinChartWithCategoryLegendExampleComponent implements OnInit {
@@ -100,7 +100,7 @@ export class GeoPushpinChartWithCategoryLegendExampleComponent implements OnInit
   }
 
   ngOnInit() {
-    this.rootDomID = uuid.v1();
+    this.rootDomID = uuid.v4();
   }
 
   ngOnChanges() {

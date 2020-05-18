@@ -108,7 +108,7 @@ export class GeoPushpinChartConfigurationPointsSizeExampleComponent implements O
   }
 
   ngOnInit() {
-    this.rootDomID = uuid.v1();
+    this.rootDomID = uuid.v4();
   }
 
   ngOnChanges() {
