@@ -147,7 +147,17 @@ import { DynamicMeasureComponentComponent } from './routes/dynamic-measure-compo
 import { AttributeElementComponent } from './components/attribute-element/attribute-element.component';
 import { MeasureValueFilterComponentExampleComponent } from './components/measure-value-filter-component-example/measure-value-filter-component-example.component';
 import { MeasureValueFilterComponentPercentageExampleComponent } from './components/measure-value-filter-component-percentage-example/measure-value-filter-component-percentage-example.component';
-import { MeasureValueFilterComponentShowInPercentComponent } from './components/measure-value-filter-component-show-in-percent/measure-value-filter-component-show-in-percent.component'
+import { MeasureValueFilterComponentShowInPercentComponent } from './components/measure-value-filter-component-show-in-percent/measure-value-filter-component-show-in-percent.component';
+import { GeoPushpinChartWithCategoryLegendExampleComponent } from './components/geo-pushpin-chart-with-category-legend-example/geo-pushpin-chart-with-category-legend-example.component';
+import { GeoPushpinChartDemoComponent } from './routes/geo-pushpin-chart-demo/geo-pushpin-chart-demo.component';
+import { GeoPushpinChartClusteringExampleComponent } from './components/geo-pushpin-chart-clustering-example/geo-pushpin-chart-clustering-example.component';
+import { GeoPushpinChartWithColorLegendExampleComponent } from './components/geo-pushpin-chart-with-color-legend-example/geo-pushpin-chart-with-color-legend-example.component';
+import { GeoPushpinChartConfigurationExampleComponent } from './components/geo-pushpin-chart-configuration-example/geo-pushpin-chart-configuration-example.component';
+import { GeoPushpinChartConfigurationLegendExampleComponent } from './components/geo-pushpin-chart-configuration-legend-example/geo-pushpin-chart-configuration-legend-example.component';
+import { GeoPushpinChartConfigurationViewportExampleComponent } from './components/geo-pushpin-chart-configuration-viewport-example/geo-pushpin-chart-configuration-viewport-example.component';
+import { GeoPushpinChartConfigurationColorMappingExampleComponent } from './components/geo-pushpin-chart-configuration-color-mapping-example/geo-pushpin-chart-configuration-color-mapping-example.component';
+import { GeoPushpinChartConfigurationPointsGroupNearbyExampleComponent } from './components/geo-pushpin-chart-configuration-points-group-nearby-example/geo-pushpin-chart-configuration-points-group-nearby-example.component';
+import { GeoPushpinChartConfigurationPointsSizeExampleComponent } from './components/geo-pushpin-chart-configuration-points-size-example/geo-pushpin-chart-configuration-points-size-example.component';
 
 @NgModule({
     imports: [
@@ -297,7 +307,17 @@ import { MeasureValueFilterComponentShowInPercentComponent } from './components/
         AttributeElementComponent,
         MeasureValueFilterComponentExampleComponent,
         MeasureValueFilterComponentPercentageExampleComponent,
-        MeasureValueFilterComponentShowInPercentComponent
+        MeasureValueFilterComponentShowInPercentComponent,
+        GeoPushpinChartWithCategoryLegendExampleComponent,
+        GeoPushpinChartDemoComponent,
+        GeoPushpinChartClusteringExampleComponent,
+        GeoPushpinChartWithColorLegendExampleComponent,
+        GeoPushpinChartConfigurationExampleComponent,
+        GeoPushpinChartConfigurationLegendExampleComponent,
+        GeoPushpinChartConfigurationViewportExampleComponent,
+        GeoPushpinChartConfigurationColorMappingExampleComponent,
+        GeoPushpinChartConfigurationPointsGroupNearbyExampleComponent,
+        GeoPushpinChartConfigurationPointsSizeExampleComponent
 
     ],
     providers: [
@@ -401,7 +421,17 @@ import { MeasureValueFilterComponentShowInPercentComponent } from './components/
         AttributeElementComponent,
         MeasureValueFilterComponentExampleComponent,
         MeasureValueFilterComponentPercentageExampleComponent,
-        MeasureValueFilterComponentShowInPercentComponent
+        MeasureValueFilterComponentShowInPercentComponent,
+        GeoPushpinChartWithCategoryLegendExampleComponent,
+        GeoPushpinChartDemoComponent,
+        GeoPushpinChartClusteringExampleComponent,
+        GeoPushpinChartWithColorLegendExampleComponent,
+        GeoPushpinChartConfigurationExampleComponent,
+        GeoPushpinChartConfigurationLegendExampleComponent,
+        GeoPushpinChartConfigurationViewportExampleComponent,
+        GeoPushpinChartConfigurationColorMappingExampleComponent,
+        GeoPushpinChartConfigurationPointsGroupNearbyExampleComponent,
+        GeoPushpinChartConfigurationPointsSizeExampleComponent
     ]
 })
 
