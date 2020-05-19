@@ -2,13 +2,18 @@
 <html>
 
 <head>
-  <script>
+  <!-- <script>
     if (global === undefined) {
       var global = window;
     }
+  </script> -->
+  <script>
+    var global = global || window;
+    var Buffer = Buffer || [];
+    var process = {env : {NODE_ENV: 'development'}}
   </script>
   <base href="/" />
-  <title>GoodData Live Example</title>
+  <title>GoodData Examples Angular</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- bootstrap css -->

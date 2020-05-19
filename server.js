@@ -2,6 +2,7 @@ const { factory } = require("@gooddata/gooddata-js");
 const https = require("https");
 const fs = require("fs");
 const express = require("express");
+require('dotenv').config();
 
 const proxy = require("./src/endpoints/proxy");
 const register = require("./src/endpoints/register");
